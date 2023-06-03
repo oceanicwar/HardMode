@@ -6,7 +6,7 @@ DELETE FROM `hardmode_modes`;
 INSERT INTO `hardmode_modes` (`id`, `name`, `description`, `restrictions`, `enabled`) VALUES
 	(1, '|cffff0000Hardcore|r', 'Permadeath and limited services.', 155640, 1),
 	(2, '|cff00ff00Self Crafted|r', 'Self Crafted items only and limited services.', 147708, 1),
-	(3, '|cffffff00Slow XP|r', 'Retail 1x XP, no other limitations.', 2, 1),
+	(3, '|cffffff00Slow XP|r', 'Retail 1x XP and must group with others within 3 levels, no other limitations.', 131074, 1),
     (4, '|cffff8000Hell|r', 'Half size, speed, damage, no talents, low drop rate and limited services.', 966904, 1);
 
 DELETE FROM `hardmode_rewards`;
