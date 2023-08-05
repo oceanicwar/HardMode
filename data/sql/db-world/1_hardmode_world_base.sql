@@ -37,9 +37,11 @@ DELETE FROM `gameobject` WHERE `guid`=5530619;
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnMask`, `phaseMask`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`, `ScriptName`, `VerifiedBuild`) VALUES (5530619, 180322, 37, 0, 0, 1, 1, -593.628, -222.814, 354.97, 0.677429, -0, -0, -0.332275, -0.943183, 300, 0, 1, '', NULL);
 
 
-DELETE FROM `command` WHERE `name`='hardmode setmode';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES ('hardmode setmode', 3, 'Syntax: .hardmode setmode <mode> <value>');
-DELETE FROM `command` WHERE `name`='hardmode settaint';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES ('hardmode settaint', 3, 'Syntax: .hardmode settaint <value>');
-DELETE FROM `command` WHERE `name`='hardmode setshadowban';
-INSERT INTO `command` (`name`, `security`, `help`) VALUES ('hardmode setshadowban', 3, 'Syntax: .hardmode setshadowban <value> ');
+DELETE FROM `command` WHERE `name`='hardmode set mode';
+INSERT INTO `command` (`name`, `security`, `help`) VALUES ('hardmode set mode', 2, 'Syntax: .hardmode set mode <mode> <value>');
+
+DELETE FROM `command` WHERE `name`='hardmode set taint';
+INSERT INTO `command` (`name`, `security`, `help`) VALUES ('hardmode set taint', 2, 'Syntax: .hardmode set taint <value>');
+
+DELETE FROM `command` WHERE `name`='hardmode set shadowban';
+INSERT INTO `command` (`name`, `security`, `help`) VALUES ('hardmode set shadowban', 2, 'Syntax: .hardmode set shadowban <value>');
