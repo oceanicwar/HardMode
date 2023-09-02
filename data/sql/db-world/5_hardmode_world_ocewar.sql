@@ -7,7 +7,7 @@ INSERT INTO `hardmode_modes` (`id`, `name`, `description`, `restrictions`, `enab
 	(1, '|cffff0000Hardcore|r', 'Permadeath', 1204216, 1),
 	(2, '|cff00ff00Self Crafted|r', 'Self Crafted', 147708, 1),
 	(3, '|cffffff00Slow XP|r', 'Retail XP', 131074, 1),
-    (4, '|cffff8000Hell|r', 'No talents with poor loot and half size speed and damage', 966904, 1);
+    (4, '|cffff8000Hell|r', 'No talents with poor loot and half modifiers', 966904, 1);
 
 DELETE FROM `hardmode_rewards`;
 INSERT INTO `hardmode_rewards` (`mode`, `reward_level`, `reward_type`, `reward_id`, `reward_count`, `comment`) VALUES
