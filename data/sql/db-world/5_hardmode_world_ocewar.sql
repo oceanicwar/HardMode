@@ -4,7 +4,7 @@ INSERT INTO `hardmode_auras` (`mode`, `aura`, `description`) VALUES
 
 DELETE FROM `hardmode_modes`;
 INSERT INTO `hardmode_modes` (`id`, `name`, `description`, `restrictions`, `enabled`) VALUES
-	(1, '|cffff0000Hardcore|r', 'Permadeath', 1204216, 1),
+	(1, '|cffff0000Hardcore|r', 'Permadeath', 1200632, 1),
 	(2, '|cff00ff00Self Crafted|r', 'Self Crafted', 147708, 1),
 	(3, '|cffffff00Slow XP|r', 'Retail XP', 131074, 1),
     (4, '|cffff8000Hell|r', 'No talents with poor loot and half modifiers', 966904, 1);
