@@ -3,7 +3,7 @@ INSERT INTO `hardmode_selfcraft_exclude` (`id`, `comment`) VALUES
 	(-45548, 'Spell - Level 75 Food'),
 	(-43183, 'Spell - Level 75 Drink'),
 	(-43182, 'Spell - Level 70 Drink'),
-	(-43180, 'Spell - Level 65 Food'),
+	(-35270, 'Spell - Level 65 Food'),
 	(-34291, 'Spell - Level 60 Drink'),
 	(-27094, 'Spell - Level 55 Food'),
 	(-27089, 'Spell - Level 65 Drink'),
